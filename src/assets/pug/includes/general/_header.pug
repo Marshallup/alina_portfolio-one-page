@@ -1,0 +1,45 @@
+main.main#main
+  .section-main
+    .container
+      .main-body
+        .main-photo(data-aos="zoom-in-left" data-aos-duration="1500" data-aos-easing="ease-in-back")
+          img(src="./assets/img/photo.png", alt="")
+        .main-right(data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-back")
+          .main-text
+            .main-text__title Привет, я Алина 
+            .main-text__subtitle творческий веб-дизайнер. создаю эстетичный и удобный дизайн
+          .main-link
+            a(href="#").main-link__item behance
+      //- .main-sub__title Мои цели в дизайне:
+      .main-sub__title-wrap
+        .main-sub__title(data-aos-anchor-placement="top-bottom" data-aos="fade-down" data-aos-duration="1000" title="Мои цели в дизайне:")
+      ul.main-sub-list
+        li.main-sub-list__item(data-aos-anchor-placement="top-bottom" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-back" data-aos-delay="0") выделить среди конкурентов, <br> показать уникальность
+        li.main-sub-list__item(data-aos-anchor-placement="top-bottom" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-back" data-aos-delay="400") решать боли и потребности <br> целевой аудитории 
+        li.main-sub-list__item(data-aos-anchor-placement="top-bottom" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-back" data-aos-delay="800") создать дизайн, который, <br> притягивает внимание
+      .main-project-wrap
+        .main-project
+          .main-project-text(data-aos="fade-down" data-aos-duration="1000")
+            .main-project__title-wrap 
+              .main-project__title(title="Создадим проект вместе?")
+            .main-project-socials
+              a(href="#").main-project-socials__link Телеграм
+              a(href="#").main-project-socials__link WhatsApp
+          .main-project-arrow(data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500")
+            .main-project-arrow__item
+            .main-project-arrow-desk.main-project-arrow__left.main-project-arrow__text
+              span(title="Заглядывай ко мне на Behance")
+            .main-project-arrow-desk.main-project-arrow__left.main-project-arrow__btn
+              a(href="#" data-aos-anchor-placement="top-bottom" data-aos="fade-left"  data-aos-delay="800") заглянуть
+        .main-project-mobile-btn-wrap
+          .main-project-arrow__left.main-project-arrow__text(data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500")
+            span(title="Заглядывай ко мне на Behance")
+          .main-project-arrow__left.main-project-arrow__btn
+            a(href="#" data-aos-anchor-placement="top-bottom" data-aos="fade-left"  data-aos-delay="800") заглянуть
+      .main-socials(data-aos-anchor-placement="top-bottom" data-aos="zoom-in-bottom" data-aos-duration="700")
+        a(href="#").main-socials__item
+          img(src="./assets/img/behance.svg", alt="behance alina")
+        a(href="#").main-socials__item
+          img(src="./assets/img/vk.svg", alt="behance alina")
+        a(href="#").main-socials__item
+          img(src="./assets/img/instagram.svg", alt="behance alina")
